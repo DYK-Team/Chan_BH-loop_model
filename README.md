@@ -1,0 +1,1 @@
+The attached PDF reports cover various subjects related to magnetic circuit design. Additionally, a Python program has been developed to reproduce Chan's model, enabling the simulation of magnetic hysteresis loops. For more information on Chan's model, please refer to: https://ieeexplore.ieee.org/document/75630
