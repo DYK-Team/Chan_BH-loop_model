@@ -8,4 +8,6 @@ Output files of Chan_model.py (algorithm with GUI): "BH-loop_data.csv", "Average
 
 "Magnetic circuits.ppsx" is a Power Point Slide Show (PPS) on magnetic circuits. It can be seen after downloading.
 
-"Introduction to electrodynamics.ppsx" is a Power Point Slide Show (PPS) on electromagnetic principles for college students. It can be seen after downloading. 
+"Introduction to electrodynamics.ppsx" is a Power Point Slide Show (PPS) on electromagnetic principles for college students. It can be seen after downloading.
+
+The folder "LTspice_Non-linear_Transformer" contains the LTspice simulation file for a non-linear transformer. 
