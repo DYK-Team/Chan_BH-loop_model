@@ -1,6 +1,0 @@
-BH Parameters:
-Bs (T): 0.5
-Br (T): 0.1
-Hc (A/m): 10.0
-Hmax (A/m): 600.0
-N (Number of points): 1000

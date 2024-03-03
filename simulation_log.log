@@ -1,1 +1,1 @@
-Simulation parameters: Bs=0.51, Br=0.11, Hc=13.0, Hmax=30.0, N=1000
+Simulation parameters: Bs=0.5, Br=0.1, Hc=10.0, Hmax=1037.0, N=50000, Lm=0.0482, Lg=0.00025, S=3.48e-05
