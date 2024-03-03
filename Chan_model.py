@@ -197,7 +197,7 @@ tk.Label(window, text="Coercivity, Hc (A/m):").grid(row=2, column=0)
 entry_Hc = tk.Entry(window, width=15)
 entry_Hc.grid(row=2, column=1)
 
-tk.Label(window, text=", Magnitizing force, Hmax (A/m):").grid(row=3, column=0)
+tk.Label(window, text=", Magnetizing force, Hmax (A/m):").grid(row=3, column=0)
 entry_Hmax = tk.Entry(window, width=15)
 entry_Hmax.grid(row=3, column=1)
 
