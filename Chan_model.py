@@ -99,14 +99,15 @@ def run_simulation():
         Hcm = float(interp_func(0))  # Hc_ungapped
 
         # GAPPED BH-loop: saturated or minor (unsaturated)
-        # dB - branch vertical adjustment for drawing a minor loop
         mu1_values = [(B / (mu_0 * (H + Hcm))) for H, B in zip(H_values, B1_values)]  # Relative permeability for B1
         mu1_values = [1.0 if value < 1.0 else value for value in mu1_values]  # Checking the condition mu >=1
         mu2_values = [(B / (mu_0 * (H - Hcm))) for H, B in zip(H_values, B2_values)]  # Relative permeability for B1
         mu2_values = [1.0 if value < 1.0 else value for value in mu2_values]  # Checking the condition mu >=1
 
-        R1_values = [(Lm / (S * mu_0 * mu) + Lg / (S * mu_0)) for mu in mu1_values]  # Reluctance for B1
-        R2_values = [(Lm / (S * mu_0 * mu) + Lg / (S * mu_0)) for mu in mu2_values]  # Reluctance for B2
+        R1_values = [(Lm / (S * mu_0 * mu) + Lg / (S * mu_0)) for mu in mu1_values]  # Reluctance for the upper branch
+        R2_values = [(Lm / (S * mu_0 * mu) + Lg / (S * mu_0)) for mu in mu2_values]  # Reluctance for the lower branch
+
+        # dB - branch vertical adjustment for drawing a minor loop
         dB = ((H_values[N - 1] + Hcm) / (S * R1_values[N - 1]) - (H_values[N - 1] - Hcm) / (S * R2_values[N - 1])) * Lm / 2.0
 
         B1_gapped_values = [((H + Hcm) * Lm / (S * R) - dB) for H, R in zip(H_values, R1_values)]  # Upper branch
