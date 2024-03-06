@@ -4,7 +4,7 @@ This model is used for simulating non-linear behaviour of transformers in LTspic
 
 Output files of Chan_model.py (algorithm with GUI): "Ungapped_BH-loop_data.csv" and "Gapped_BH-loop_data.csv". Input parameters from the previous program run are saved in "simulation_log.log" (do not delete this file!) and can be called from GUI.
 
-"A case study on magnetic cores_All files.pdf" is the main report with all necessary files attached.
+"A case study on magnetic cores_All.pdf" is the main report with all necessary files attached.
 
 "Magnetic circuits.ppsx" is a Power Point Slide Show (PPS) on magnetic circuits for college students. It can be seen after downloading.
 
