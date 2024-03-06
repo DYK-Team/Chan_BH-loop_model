@@ -101,7 +101,7 @@ def run_simulation():
         # GAPPED BH-loop: saturated or minor (unsaturated)
         mu1_values = [(B / (mu_0 * (H + Hcm))) for H, B in zip(H_values, B1_values)]  # Relative permeability for B1
         mu1_values = [1.0 if value < 1.0 else value for value in mu1_values]  # Checking the condition mu >=1
-        mu2_values = [(B / (mu_0 * (H - Hcm))) for H, B in zip(H_values, B2_values)]  # Relative permeability for B1
+        mu2_values = [(B / (mu_0 * (H - Hcm))) for H, B in zip(H_values, B2_values)]  # Relative permeability for B2
         mu2_values = [1.0 if value < 1.0 else value for value in mu2_values]  # Checking the condition mu >=1
 
         R1_values = [(Lm / (S * mu_0 * mu) + Lg / (S * mu_0)) for mu in mu1_values]  # Reluctance for the upper branch
