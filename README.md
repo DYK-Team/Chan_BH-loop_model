@@ -6,6 +6,8 @@ Output files of Chan_model.py (algorithm with GUI): "Ungapped_BH-loop_data.csv" 
 
 "A case study on magnetic cores_All.pdf" is the main report with all necessary files attached.
 
+"Nonlinear_transformer_model_for_circuit_simulation.pdf" is the original Chan's paper
+
 "Magnetic circuits.ppsx" is a Power Point Slide Show (PPS) on magnetic circuits for college students. It can be seen after downloading.
 
 "Introduction to electrodynamics.ppsx" is a Power Point Slide Show (PPS) on electromagnetic principles for college students. It can be seen after downloading.
